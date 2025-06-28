@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"; // ✅ fix import
+import { Link } from "react-router-dom";
 import { DynamicIcon } from "lucide-react/dynamic";
 
 export default function NavLink({ name, path, icons, color }) {
