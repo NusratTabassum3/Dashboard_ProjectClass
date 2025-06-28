@@ -3,7 +3,7 @@ import React from "react";
 
 export default function DataTableFooter() {
   return (
-    <div className="absolute left-0 bottom-0 w-full bg-gray-100/80 py-10 py-5 z-10">
+    <div className="absolute left-0 bottom-0 w-full bg-gray-100/80 py-10 px-5 z-10">
       <div className="flex justify-between">
         <p>1-10 of 97</p>
 
