@@ -9,7 +9,7 @@ function Sidebar() {
       <div className="flex flex-col justify-between min-h-screen">
         <div>
           <h1 className="mb-5 font-bold uppercase">BookStore Dashboard</h1>
-          <Searchbar />
+          <Searchbar rounded={true} />
           <Navbar />
         </div>
 

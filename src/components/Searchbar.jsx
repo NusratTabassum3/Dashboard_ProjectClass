@@ -1,8 +1,12 @@
 import { FaSearch } from "react-icons/fa";
 
-export default function Searchbar() {
+export default function Searchbar({ rounded }) {
   return (
-    <div className="flex items-center border gap-4 px-4 mb-5">
+    <div
+      className={`flex items-center border gap-4 px-4  ${
+        rounded ? "rounded-full" : "rounded-md"
+      }`}
+    >
       <FaSearch size={20} />
       <input
         type="text"

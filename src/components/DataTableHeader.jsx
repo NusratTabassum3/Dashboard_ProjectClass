@@ -1,9 +1,10 @@
 import React from "react";
 import { CiFilter } from "react-icons/ci";
 import Searchbar from "../components/Searchbar";
-export default function Books() {
+
+function DataTableHeader() {
   return (
-    <div className="px-5 py-3">
+    <div>
       <div className="flex justify-between itmes-center">
         <div className="flex gap-5 items-center">
           <div className="bg-white shadow-md rounded-md p-4">
@@ -20,3 +21,5 @@ export default function Books() {
     </div>
   );
 }
+
+export default DataTableHeader;
