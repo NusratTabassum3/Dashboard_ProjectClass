@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Searchbar from "./Searchbar";
+import SideBarUserDetails from "./SideBarUserDetails";
 
 function Sidebar() {
   return (
@@ -12,7 +13,7 @@ function Sidebar() {
           <Navbar />
         </div>
 
-        <p>Bottom Section</p>
+        <SideBarUserDetails />
       </div>
     </div>
   );
