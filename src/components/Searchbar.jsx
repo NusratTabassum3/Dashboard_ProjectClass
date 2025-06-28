@@ -10,7 +10,7 @@ export default function Searchbar({ rounded }) {
       <FaSearch size={20} />
       <input
         type="text"
-        className="bg-gray-100 py-3 w-full outline-none"
+        className="bg-transparent py-3 w-full outline-none"
         placeholder="Search"
       />
     </div>

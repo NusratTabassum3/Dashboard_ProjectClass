@@ -1,6 +1,5 @@
 import NavLink from "./NavLink";
-import { IoMdSettings } from "react-icons/io";
-import { MdLogout } from "react-icons/md";
+
 const userDetails = {
   name: "Sara",
   img: "/public/Rectangle 1.png",
@@ -20,20 +19,11 @@ export default function SideBarUserDetails() {
       </div>
 
       <div>
-        <NavLink
-          path="/setting"
-          name="Setthing"
-          icons={<IoMdSettings />}
-        ></NavLink>
+        <NavLink path="/setting" name="Setting" icons="settings"></NavLink>
       </div>
 
       <div className="">
-        <NavLink
-          path="/logout"
-          name="Logout"
-          icons={<MdLogout className="text-red-600" />}
-          color="text-red-600"
-        ></NavLink>
+        <NavLink path="/logout" name="Logout" icons="log-out" color="red" />
       </div>
     </div>
   );

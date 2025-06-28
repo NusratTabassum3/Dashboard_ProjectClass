@@ -1,36 +1,33 @@
-import { FaHome } from "react-icons/fa";
-import { IoBookSharp } from "react-icons/io5";
-import { MdOutlineLibraryBooks } from "react-icons/md";
 import NavLink from "./NavLink";
-import { IoIosContact } from "react-icons/io";
 
 const Navigation = [
   {
     id: 1,
     name: "Home",
     path: "/",
-    icon: <FaHome />,
+    icon: "house",
+    color: "black",
   },
-
   {
     id: 2,
     name: "Books",
     path: "/books",
-    icon: <IoBookSharp />,
+    icon: "book",
+    color: "black",
   },
-
   {
     id: 3,
     name: "About",
     path: "/about",
-    icon: <MdOutlineLibraryBooks />,
+    icon: "info",
+    color: "black",
   },
-
   {
     id: 4,
     name: "Contact",
     path: "/contact",
-    icon: <IoIosContact />,
+    icon: "phone",
+    color: "black",
   },
 ];
 
@@ -43,6 +40,7 @@ function Navbar() {
           name={navItem.name}
           path={navItem.path}
           icons={navItem.icon}
+          color={navItem.color}
         />
       ))}
     </nav>
