@@ -2,7 +2,7 @@ import React from "react";
 import { CiFilter } from "react-icons/ci";
 import Searchbar from "../components/Searchbar";
 
-function DataTableHeader() {
+function DataTableHeader({ setBooks, allBooks }) {
   return (
     <div>
       <div className="flex justify-between itmes-center">
@@ -10,7 +10,7 @@ function DataTableHeader() {
           <div className="bg-white shadow-md rounded-md p-4">
             <CiFilter />
           </div>
-          <Searchbar />
+          <Searchbar setBooks={setBooks} allBooks={allBooks} />
         </div>
 
         <button className="bg-blue-500 text-white shadow- px-5 py-3 ">
