@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router";
 import Header from "../frontend/home/Header";
+import Footer from "../frontend/home/Footer";
 
 export default function FrontEndLayout() {
   return (
@@ -11,7 +12,9 @@ export default function FrontEndLayout() {
       <main>
         <Outlet />
       </main>
-      <footer>footer</footer>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
