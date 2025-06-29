@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { DynamicIcon } from "lucide-react/dynamic";
+import { Home, Book, Info, Phone, Settings, LogOut } from "lucide-react";
 
 export default function NavLink({ name, path, icons, color }) {
   const textColorClass = color === "red" ? "text-red-500" : "text-gray-800";

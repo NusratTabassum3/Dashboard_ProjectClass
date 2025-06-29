@@ -2,7 +2,8 @@ import NavLink from "./NavLink";
 
 const userDetails = {
   name: "Sara",
-  img: "/public/Rectangle 1.png",
+  img: "/Rectangle 1.png",
+
   email: "sara@gmail.com",
   role: "admin",
 };

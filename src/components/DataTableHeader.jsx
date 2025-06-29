@@ -5,7 +5,7 @@ import Searchbar from "../components/Searchbar";
 function DataTableHeader({ setBooks, allBooks }) {
   return (
     <div>
-      <div className="flex justify-between itmes-center">
+      <div className="flex justify-between items-center">
         <div className="flex gap-5 items-center">
           <div className="bg-white shadow-md rounded-md p-4">
             <CiFilter />

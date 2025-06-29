@@ -21,7 +21,7 @@ export default function DataTableBody({ books }) {
               <Td>{book.description}</Td>
               <Td>{book.autor}</Td>
               <Td
-                classname={
+                className={
                   book.status === "Available"
                     ? "text-green-500"
                     : "text-red-500"

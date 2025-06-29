@@ -1,10 +1,13 @@
 import React from "react";
 import { Outlet } from "react-router";
+import Header from "../frontend/home/Header";
 
 export default function FrontEndLayout() {
   return (
     <div>
-      <header>header</header>
+      <header>
+        <Header />
+      </header>
       <main>
         <Outlet />
       </main>
