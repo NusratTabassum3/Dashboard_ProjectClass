@@ -24,7 +24,7 @@ export default function Header() {
                 <a href="">About</a>
               </li>
               <li>
-                <a href="">Shop</a>
+                <a href="shop">Shop</a>
               </li>
               <li>
                 <a href=""></a>Contact

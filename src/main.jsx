@@ -8,12 +8,14 @@ import About from "./pages/About.jsx";
 import Books from "./pages/Books.jsx";
 import Contact from "./pages/Contact.jsx";
 import FrontEndLayout from "./layout/FrontEndLayout.jsx";
+import ExploreBook from "./pages/ExploreBook.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<FrontEndLayout />}>
-          <Route path="/" element={<Home />}></Route>
+          <Route index element={<Home />} />
+          <Route path="shop" element={<ExploreBook />}></Route>
         </Route>
 
         <Route path="/admin" element={<Layout />}>
