@@ -13,7 +13,7 @@ export default function Footer() {
             © 2024 <span className="underline "> | Neth BookPoint</span>
           </p>
 
-          <p className="text-yellow-200">
+          <p className="text-[#CA891D]">
             Visit our branches in Galle, Kurunegala, Kandy, and Colombo, and
             register for our online platform to enjoy maximum benefits!
           </p>
