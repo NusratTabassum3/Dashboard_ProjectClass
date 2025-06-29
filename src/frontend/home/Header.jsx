@@ -1,5 +1,6 @@
 import React from "react";
 import { BiBell } from "react-icons/bi";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -18,16 +19,44 @@ export default function Header() {
           <div className="flex items-center gap-5">
             <ul className="flex items-center gap-5">
               <li>
-                <a href="">Home</a>
+                <NavLink
+                  to="/"
+                  className={({ isActive }) =>
+                    isActive ? "text-[#CC9600] font-semibold" : "text-white"
+                  }
+                >
+                  Home
+                </NavLink>
               </li>
               <li>
-                <a href="">About</a>
+                <NavLink
+                  to="/about"
+                  className={({ isActive }) =>
+                    isActive ? "text-[#CC9600] font-semibold" : "text-white"
+                  }
+                >
+                  About
+                </NavLink>
               </li>
               <li>
-                <a href="shop">Shop</a>
+                <NavLink
+                  to="/shop"
+                  className={({ isActive }) =>
+                    isActive ? "text-[#CC9600] font-semibold" : "text-white"
+                  }
+                >
+                  Shop
+                </NavLink>
               </li>
               <li>
-                <a href=""></a>Contact
+                <NavLink
+                  to="/contact"
+                  className={({ isActive }) =>
+                    isActive ? "text-[#CC9600] font-semibold" : "text-white"
+                  }
+                >
+                  Contact
+                </NavLink>
               </li>
             </ul>
 
