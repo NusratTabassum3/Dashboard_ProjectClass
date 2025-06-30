@@ -4,11 +4,11 @@ import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
-    <section className="bg-[url(public/header.png)] min-h-16 bg-black px-5">
+    <section className="bg-[url(/header.png)] min-h-16 bg-black px-5">
       <div className="max-2-7xl mx-auto text-white">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <img src="/public/logo.png" alt="" className="w-16 h-16" />
+            <img src="/logo.png" alt="" className="w-16 h-16" />
             <h3 className="text-yellow-500 font-bold uppercase">
               BooksStore <br />
               Dashboard
@@ -64,7 +64,7 @@ export default function Header() {
 
             <div className="flex items-center">
               <img
-                src="/public/avatar.png"
+                src="/avatar.png"
                 alt=""
                 className="w-10 h-10 rounded-full"
               />

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HeroSection() {
   return (
-    <section className="bg-[url(public/hero.png)] min-h-[600px] bg-center flex flex-col justify-certer ">
+    <section className="bg-[url(/hero.png)] min-h-[600px] bg-center flex flex-col justify-certer ">
       <div className="max-w-4xl mx-auto text-white text-center flex flex-col gap-5 px-10">
         <h2 className="text-4xl font-bold capitalize text-yellow-300">
           The Book Lover's Dreamland Awaits!
