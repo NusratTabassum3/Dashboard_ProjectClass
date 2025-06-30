@@ -4,7 +4,7 @@ import { Facebook, Linkedin } from "lucide-react";
 
 export default function Footer() {
   return (
-    <div>
+    <div className="font-bona">
       <div className="flex flex-col gap-3 bg-black p-7">
         <img src="/public/footer.png" alt="" className="w-16 h-16" />
         <div className="flex items-center border-b border-white mb-3 "></div>

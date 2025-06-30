@@ -3,7 +3,7 @@ import BookInformation from "./BookInformation";
 
 export default function BookDtails() {
   return (
-    <section class="px-3 py-20">
+    <section class="px-3 py-20 font-bona">
       <h1 className="text-4xl text-center font-semibold ">Our Best Picks</h1>
 
       <div className="flex   gap-1">

@@ -3,7 +3,7 @@ import BookBuy from "./frontend/home/BookBuy";
 import BookDtails from "./frontend/home/BookDtails";
 function Home() {
   return (
-    <div>
+    <div className="font-bona">
       <HeroSection />
       <BookDtails />
       <BookBuy />

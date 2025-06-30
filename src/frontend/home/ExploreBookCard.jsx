@@ -3,7 +3,7 @@ import { ShoppingCart } from "lucide-react";
 
 function ExploreBookCard({ img, bookname, bookname2, price, avialable }) {
   return (
-    <section className="p-8 mt-5">
+    <section className="p-8 mt-5 font-bona">
       <div className="w-fit border border-gray-600/25 py-3 px-2 rounded-md shadow-md ">
         <div className="flex flex-col p-3">
           <img src={img} alt="" className="w-24 h-36 ml-auto mr-auto " />

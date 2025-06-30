@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
-    <section className="bg-[url(/header.png)] min-h-16 bg-black px-5">
+    <section className="bg-[url(/header.png)] min-h-16 bg-black px-5 font-bona">
       <div className="max-2-7xl mx-auto text-white">
         <div className="flex items-center justify-between">
           <div className="flex items-center">

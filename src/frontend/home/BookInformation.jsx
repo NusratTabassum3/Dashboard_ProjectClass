@@ -3,7 +3,7 @@ import { ShoppingCart } from "lucide-react";
 
 export default function BookInformation({ img, name, name2 }) {
   return (
-    <section className="  mt-16 mb-10 px-4">
+    <section className="  mt-16 mb-10 px-4 font-bona">
       <div className="flex flex-col gap-2 justify-center items-center">
         <div className="relative  ">
           <img src={img} alt="" />

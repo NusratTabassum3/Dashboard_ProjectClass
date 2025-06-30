@@ -3,9 +3,9 @@ import ExploreBookCheckbox from "../frontend/home/ExploreBookCheckbox";
 import ExploreBookCard from "../frontend/home/ExploreBookCard";
 export default function ExploreBook() {
   return (
-    <div>
+    <div className="font-bona">
       <div className="min-h-screen bg-white ">
-        <h1 className="text-3xl text-[#CC9600] text-center mt-14">
+        <h1 className="text-4xl text-[#CC9600] text-center mt-14 font-bold">
           Explore All Books Here
         </h1>
 

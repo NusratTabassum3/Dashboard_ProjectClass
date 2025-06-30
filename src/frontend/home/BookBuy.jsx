@@ -3,7 +3,7 @@ import BookBuyNumber from "./BookBuyNumber";
 
 export default function BookBuy() {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-white font-bona">
       <div className="w-full flex px-5 py-10">
         <div className="w-1/2">
           <img src="/BookBuy.png" alt="" className=" " />
