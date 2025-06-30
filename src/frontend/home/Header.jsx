@@ -30,7 +30,7 @@ export default function Header() {
               </li>
               <li>
                 <NavLink
-                  to="/about"
+                  to="/aboutbook"
                   className={({ isActive }) =>
                     isActive ? "text-[#CC9600] font-semibold" : "text-white"
                   }

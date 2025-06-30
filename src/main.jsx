@@ -9,6 +9,7 @@ import Books from "./pages/Books.jsx";
 import Contact from "./pages/Contact.jsx";
 import FrontEndLayout from "./layout/FrontEndLayout.jsx";
 import ExploreBook from "./pages/ExploreBook.jsx";
+import AboutBooks from "./pages/AboutBooks.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
@@ -16,6 +17,7 @@ createRoot(document.getElementById("root")).render(
         <Route path="/" element={<FrontEndLayout />}>
           <Route index element={<Home />} />
           <Route path="shop" element={<ExploreBook />}></Route>
+          <Route path="aboutbook" element={<AboutBooks />}></Route>
         </Route>
 
         <Route path="/admin" element={<Layout />}>
