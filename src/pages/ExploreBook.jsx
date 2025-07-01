@@ -1,6 +1,6 @@
 import React from "react";
-import ExploreBookCheckbox from "../frontend/home/ExploreBookCheckbox";
-import ExploreBookCard from "../frontend/home/ExploreBookCard";
+import ExploreBookCheckbox from "../components/frontend/home/ExploreBookCheckbox";
+import ExploreBookCard from "../components/frontend/home/ExploreBookCard";
 export default function ExploreBook() {
   return (
     <div className="font-bona">

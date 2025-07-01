@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className="font-bona">
       <div className="flex flex-col gap-3 bg-black p-7">
-        <img src="/public/footer.png" alt="" className="w-16 h-16" />
+        <img src="/footer.png" alt="" className="w-16 h-16" />
         <div className="flex items-center border-b border-white mb-3 "></div>
         <div className="flex justify-between items-center ">
           <p className="text-white">

@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router";
-import Header from "../frontend/home/Header";
-import Footer from "../frontend/home/Footer";
+import Header from "../components/frontend/home/Header";
+import Footer from "../components/frontend/home/Footer";
 
 export default function FrontEndLayout() {
   return (
