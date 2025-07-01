@@ -48,7 +48,7 @@ export default function Header() {
                   Shop
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink
                   to="/contact"
                   className={({ isActive }) =>
@@ -57,7 +57,7 @@ export default function Header() {
                 >
                   Contact
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
 
             <BiBell size={20} />
