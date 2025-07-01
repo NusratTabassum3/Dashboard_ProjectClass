@@ -1,12 +1,69 @@
-# React + Vite
+Netlify Link:https://lucent-kangaroo-71b1e9.netlify.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+BookStore Dashboard Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a simple dashboard and landing page built using React and Tailwind CSS. It has two parts:
 
-## Expanding the ESLint configuration
+A public homepage for users
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+An admin panel where books can be viewed and filtered.
+
+Pages Created:
+
+Frontend:
+
+/ – Home page with hero section and search
+
+Admin Panel:
+
+/admin/about – About page
+
+/admin/books – Books page with table and search functionality
+
+/admin/contact – Contact page
+
+How to Run:
+
+Clone the repo:
+git clone https://github.com/NusratTabassum3/Dashboard_ProjectClass.git
+
+Go into the project folder:
+cd Dashboard_ProjectClass
+
+Install dependencies:
+npm install
+
+Start the project:
+npm run dev
+
+Open in browser:
+http://localhost:5173
+
+Features Implemented:
+
+Routing with react-router-dom
+
+A public landing page with a search input
+
+Admin dashboard layout with sidebar
+
+Books list in a table view
+
+Filter/search functionality
+
+Styled using Tailwind CSS
+
+Reusable components for clean structure
+
+Files/Pages Created:
+
+Home.jsx
+
+About.jsx
+
+Books.jsx
+
+Contact.jsx
+
+Components: Sidebar, Header, Searchbar, Table, etc.
